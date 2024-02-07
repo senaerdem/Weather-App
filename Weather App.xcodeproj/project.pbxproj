@@ -23,6 +23,10 @@
 		5D65ACAB2B70BB1C00AA0491 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65ACAA2B70BB1C00AA0491 /* TabViewController.swift */; };
 		5D65ACAD2B7157F300AA0491 /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65ACAC2B7157F300AA0491 /* CurrentWeatherView.swift */; };
 		5D65ACAF2B7159E600AA0491 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D65ACAE2B7159E600AA0491 /* SettingsView.swift */; };
+		5DCA4F442B741AF700B5861A /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA4F432B741AF700B5861A /* CurrentWeatherViewModel.swift */; };
+		5DCA4F462B741B5B00B5861A /* CurrentWeatherCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA4F452B741B5B00B5861A /* CurrentWeatherCollectionViewCellViewModel.swift */; };
+		5DCA4F482B741BA500B5861A /* HourlyWeatherCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA4F472B741BA500B5861A /* HourlyWeatherCollectionViewCellViewModel.swift */; };
+		5DCA4F4A2B741BE000B5861A /* DailyWeatherCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCA4F492B741BE000B5861A /* DailyWeatherCollectionViewCellViewModel.swift */; };
 		5DD515CD2B717D7B00A63E82 /* SettingsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD515CC2B717D7B00A63E82 /* SettingsViewViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +50,10 @@
 		5D65ACAA2B70BB1C00AA0491 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
 		5D65ACAC2B7157F300AA0491 /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		5D65ACAE2B7159E600AA0491 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5DCA4F432B741AF700B5861A /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
+		5DCA4F452B741B5B00B5861A /* CurrentWeatherCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		5DCA4F472B741BA500B5861A /* HourlyWeatherCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyWeatherCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
+		5DCA4F492B741BE000B5861A /* DailyWeatherCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		5DD515CC2B717D7B00A63E82 /* SettingsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +141,10 @@
 			children = (
 				5DD515CC2B717D7B00A63E82 /* SettingsViewViewModel.swift */,
 				5D3DE2552B7244FB0061BD22 /* CurrentWeatherSection.swift */,
+				5DCA4F432B741AF700B5861A /* CurrentWeatherViewModel.swift */,
+				5DCA4F452B741B5B00B5861A /* CurrentWeatherCollectionViewCellViewModel.swift */,
+				5DCA4F472B741BA500B5861A /* HourlyWeatherCollectionViewCellViewModel.swift */,
+				5DCA4F492B741BE000B5861A /* DailyWeatherCollectionViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -231,10 +243,14 @@
 				5D65ACAB2B70BB1C00AA0491 /* TabViewController.swift in Sources */,
 				5D65ACA72B70B80000AA0491 /* WeatherManager.swift in Sources */,
 				5D65ACA32B70B7D000AA0491 /* LocationManager.swift in Sources */,
+				5DCA4F462B741B5B00B5861A /* CurrentWeatherCollectionViewCellViewModel.swift in Sources */,
 				5D65ACAD2B7157F300AA0491 /* CurrentWeatherView.swift in Sources */,
 				5D65ACA92B70BABF00AA0491 /* SettingsViewController.swift in Sources */,
 				5D65ACAF2B7159E600AA0491 /* SettingsView.swift in Sources */,
+				5DCA4F4A2B741BE000B5861A /* DailyWeatherCollectionViewCellViewModel.swift in Sources */,
 				5DD515CD2B717D7B00A63E82 /* SettingsViewViewModel.swift in Sources */,
+				5DCA4F442B741AF700B5861A /* CurrentWeatherViewModel.swift in Sources */,
+				5DCA4F482B741BA500B5861A /* HourlyWeatherCollectionViewCellViewModel.swift in Sources */,
 				5D3DE25B2B72472F0061BD22 /* DailyWeatherCollectionViewCell.swift in Sources */,
 				5D65ACA52B70B7E000AA0491 /* IAPManager.swift in Sources */,
 				5D65AC8C2B70B48400AA0491 /* WeatherViewController.swift in Sources */,
